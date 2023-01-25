@@ -16,7 +16,6 @@ const Footer = () => (
           A new way to make the payments easy, reliable and secure.
         </p>
       </div>
-      
           <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
